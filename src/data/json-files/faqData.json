@@ -1,0 +1,104 @@
+[
+	{
+		"question": "¿Cuál es el costo del plan básico?",
+		"reply": "El plan básico es gratuito y te permite acceder a las funciones principales de la plataforma Talento Local, ideal para comuneros que desean explorar oportunidades laborales en su área.",
+		"category": "pricing",
+		"open": true
+	},
+	{
+		"question": "¿Ofrecen descuentos para suscripciones anuales?",
+		"reply": "Actualmente, nuestra plataforma es de acceso libre para todos los usuarios, incluyendo comuneros, empresas contratistas y operadores. No se requieren suscripciones pagas.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "¿Puedo cambiar de plan en cualquier momento?",
+		"reply": "No es necesario cambiar de plan. Todos los usuarios tienen acceso completo a las herramientas de Talento Local, que están diseñadas para facilitar la búsqueda de empleo y la gestión de la fuerza laboral.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "¿Hay un periodo de prueba gratuito?",
+		"reply": "Talento Local es completamente gratuito para todos los usuarios, por lo que no se requiere un periodo de prueba.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "¿Ofrecen reembolsos?",
+		"reply": "Talento Local es gratuito, por lo que no se manejan pagos ni reembolsos. Todos los servicios están disponibles sin costo para los usuarios.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "¿Cómo cancelo mi suscripción?",
+		"reply": "No es necesaria la cancelación, ya que Talento Local no requiere suscripciones pagas. Puedes dejar de usar la plataforma en cualquier momento.",
+		"category": "pricing",
+		"open": false
+	},
+	{
+		"question": "¿Puedo integrar Talento Local con otras herramientas?",
+		"reply": "Sí, Talento Local se integra con diversas herramientas de gestión laboral y administrativa para facilitar la sincronización de datos y procesos.",
+		"category": "integrations",
+		"open": true
+	},
+	{
+		"question": "¿Funciona Talento Local con Slack?",
+		"reply": "Sí, puedes integrar Talento Local con Slack para recibir notificaciones y actualizaciones directamente en tus canales, manteniéndote informado sobre las postulaciones y ofertas sin salir de Slack.",
+		"category": "integrations",
+		"open": false
+	},
+	{
+		"question": "¿Cómo conecto Talento Local con Trello?",
+		"reply": "Para conectar Talento Local con Trello, ve a la página de integraciones en tu configuración y sigue las instrucciones para vincular tus cuentas. Esta integración te ayuda a gestionar tus ofertas laborales y proyectos en un solo lugar.",
+		"category": "integrations",
+		"open": false
+	},
+	{
+		"question": "¿Hay una API para integraciones personalizadas?",
+		"reply": "Sí, ofrecemos una API que te permite crear integraciones personalizadas con Talento Local. Nuestra documentación de la API proporciona instrucciones detalladas y ejemplos para ayudarte a comenzar.",
+		"category": "integrations",
+		"open": false
+	},
+	{
+		"question": "¿Puedo sincronizar Talento Local con mi correo electrónico?",
+		"reply": "Actualmente no soportamos la integración con correo electrónico, pero esta característica está en nuestra hoja de ruta para futuras versiones. Mantente atento a las actualizaciones mientras seguimos mejorando Talento Local.",
+		"category": "integrations",
+		"open": false
+	},
+	{
+		"question": "¿Talento Local soporta Zapier?",
+		"reply": "Sí, Talento Local se integra con Zapier, permitiéndote conectar con más de 2,000 aplicaciones y automatizar tus flujos de trabajo. Esta integración te ayuda a simplificar tus procesos y mejorar la eficiencia.",
+		"category": "integrations",
+		"open": false
+	},
+	{
+		"question": "¿Cuáles son las características principales de Talento Local?",
+		"reply": "Talento Local incluye gestión de ofertas laborales, postulaciones, perfiles de candidatos, informes en tiempo real, y más. Estas características están diseñadas para ayudarte a conectar con talento local de manera eficiente.",
+		"category": "features",
+		"open": true
+	},
+	{
+		"question": "¿Cómo uso la función de mensajería dentro de la plataforma?",
+		"reply": "La mensajería en Talento Local te permite comunicarte con candidatos y equipos directamente dentro de la plataforma. Navega a la pestaña de mensajería para iniciar una conversación, enviar mensajes, compartir archivos y crear chats grupales.",
+		"category": "features",
+		"open": false
+	},
+	{
+		"question": "¿Puedo personalizar mi panel de control?",
+		"reply": "Sí, puedes personalizar tu panel de control agregando, eliminando y reorganizando widgets para adaptarlo a tu flujo de trabajo. Esta personalización te ayuda a mantener la información importante a tu alcance.",
+		"category": "features",
+		"open": false
+	},
+	{
+		"question": "¿Cómo funciona la función de seguimiento de tiempo?",
+		"reply": "El seguimiento de tiempo te permite registrar el tiempo dedicado a las tareas y proyectos. Inicia el temporizador cuando comiences una tarea y deténlo cuando hayas terminado. También puedes registrar el tiempo manualmente si es necesario.",
+		"category": "features",
+		"open": false
+	},
+	{
+		"question": "¿Hay una aplicación móvil para Talento Local?",
+		"reply": "Sí, Talento Local está disponible tanto en iOS como en Android, lo que te permite gestionar tus tareas y proyectos desde cualquier lugar. Descarga la aplicación desde el App Store o Google Play para mantenerte productivo en cualquier parte.",
+		"category": "features",
+		"open": false
+	}
+]

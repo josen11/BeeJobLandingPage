@@ -1,0 +1,72 @@
+---
+// Feature Cards grid Section
+// ------------
+// Description: A grid of cards with feature information in a 4 column layout.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import Card from '../../ui/cards/FeatureCard.astro'
+
+// Content
+// - Cards
+import feature01 from '../../../assets/cards/feature-01-ai.png'
+import feature02 from '../../../assets/cards/feature-02-ai.png'
+import feature03 from '../../../assets/cards/feature-03-ai.png'
+import feature04 from '../../../assets/cards/feature-04-ai.png'
+import feature05 from '../../../assets/cards/feature-05-ai.png'
+---
+
+<Section id="features">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2 class="text-pretty">Herramientas innovadoras para <strong>transformar</strong> tu gestión laboral</h2>
+			<p class="pb-0 text-lg">
+				Descubre nuestra suite de herramientas diseñadas para optimizar tu gestión laboral, 
+				aumentar la productividad y fomentar el crecimiento. Cada producto está cuidadosamente 
+				desarrollado para satisfacer tus necesidades y superar tus expectativas.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="Toda tu información en un solo lugar"
+				subtitle="Gestiona eficientemente las ofertas laborales, postulaciones y perfiles de candidatos en una plataforma centralizada. Monitorea el progreso, asigna tareas y colabora de manera efectiva."
+				image={feature01}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Organiza y gestiona tus procesos "
+				subtitle="Optimiza la administración de ofertas laborales y la gestión de postulaciones con nuestras herramientas intuitivas."
+				image={feature02}
+				link="/features"
+			/>
+			<Card
+				title="Mantén a tu equipo conectado"
+				subtitle="Utiliza nuestra plataforma integrada para compartir actualizaciones, archivos y mensajes en un entorno seguro y fácil de usar."
+				image={feature03}
+				link="/features"
+			/>
+		</Col>
+		<Col span="4" classes="flex flex-col gap-6">
+			<Card
+				title="Gestiona a tus candidatos"
+				subtitle="Construye y fortalece relaciones con los candidatos a través de nuestro poderoso sistema de gestión de relaciones laborales."
+				image={feature04}
+				link="/features"
+			/>
+			<Card
+				title="Simplifica tus operaciones administrativas"
+				subtitle="Optimiza la generación y seguimiento de ofertas laborales, así como la administración de perfiles, con nuestras herramientas fáciles de usar."
+				image={feature05}
+				link="/features"
+			/>
+		</Col>
+	</Row>
+</Section>

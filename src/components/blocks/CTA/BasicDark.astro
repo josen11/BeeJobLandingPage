@@ -1,0 +1,42 @@
+---
+// Basic Dark Call To Action section
+// ------------
+// Description: A centered call to action section that contains: a title, text, background image, notification and a button.
+
+// Components
+// - Layout
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+// - UI
+import CTA from '../../ui/CTA.astro'
+import Button from '../../ui/Button.astro'
+import ChipNotification from '../../ui/ChipNotification.astro'
+import { Image } from 'astro:assets'
+import Highlight from '../../ui/Highlight.astro'
+
+// Content
+import ctaImage from '../../../assets/cta-dark-bg.webp'
+import badge from '../../../assets/badge.svg'
+---
+
+<Section>
+	<Row>
+		<Col span="1" />
+		<Col span="10">
+			<CTA
+				title="¡Únete a Más de 1,000 Candidatos Satisfechos!"
+				text="Descubre por qué miles de profesionales confían en nuestra plataforma para gestionar sus oportunidades laborales y mejorar su empleabilidad. ¡Empieza hoy y nota la diferencia por ti mismo!"
+				mode="dark"
+				bg={ctaImage}
+			>
+				<ChipNotification radius="rounded-full" classes="mb-6 box">
+					<Image src={badge} alt="Mejor Plataforma" class="h-12 w-12" slot="button" />
+					#1 en Gestión de Talento Local, <Highlight classes="ml-2">Talento Local Awards</Highlight>
+				</ChipNotification>
+				<Button size="lg" style="primary"> ¡Empieza ahora! </Button>
+			</CTA>
+			<Col span="1" />
+		</Col>
+	</Row>
+</Section>

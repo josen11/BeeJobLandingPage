@@ -1,0 +1,54 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import FAQ from '../components/blocks/FAQ/FaqSticky.astro'
+import TextImage from '../components/blocks/basic/TextImage.astro'
+import CTA from '../components/blocks/CTA/BasicDark.astro'
+
+// Data
+import faqData from '../data/json-files/faqData.json'
+// - FAQ Categories
+const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
+const faqIntegrations = faqData.filter((faq) => faq.category === 'integrations')
+
+// Content
+import faqImage1 from '../assets/faq/faq-01-ai.png'
+// - SEO
+const SEO = {
+	title: 'Talento local | Resuelve Tus Dudas con Facilidad',
+	description:
+		'Explora nuestra sección de Preguntas Frecuentes para encontrar respuestas a todas tus dudas sobre precios, integraciones, características, y más. Descubre cómo Talento Local puede hacer tu vida laboral más eficiente y satisfactoria.'
+}
+// - Page Header
+const header = {
+	title: 'Resuelve Tus <strong>Preguntas</strong> en Talento Local.',
+	text: 'Encuentra respuestas a las preguntas más comunes sobre Talento Local.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<FAQ
+		title="Comprendiendo Nuestros Planes de Precios"
+		text="Obtén todos los detalles sobre los planes de Talento Local. Conoce los costos, descuentos y opciones de suscripción para encontrar el plan que mejor se adapte a tus necesidades y presupuesto."
+		data={faqPricing}
+	/>
+	<TextImage
+		title="Por Qué Los Planes de Talento Local Ofrecen Gran Valor"
+		text="En Talento Local, creemos en ofrecer un valor excepcional en cada plan. Nuestros planes están diseñados para satisfacer una variedad de necesidades, desde comuneros individuales hasta grandes empresas contratistas. Cada plan incluye acceso a nuestras potentes características, integraciones fluidas y soporte al cliente de primer nivel."
+		image={faqImage1}
+		mobileImage={faqImage1}
+		imagePosition="left"
+		offsetImage
+		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
+	/>
+	<FAQ
+		title="Integraciones Sencillas"
+		text="Descubre cómo Talento Local se integra sin problemas con tus herramientas y plataformas favoritas. Desde Google Calendar hasta Slack, descubre cómo conectar y mejorar tu productividad con potentes integraciones."
+		data={faqIntegrations}
+	/>
+	<CTA />
+</Layout>
