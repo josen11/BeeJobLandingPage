@@ -41,7 +41,7 @@ export const footerNavigationData: FooterData = {
 		aboutText:
 			'Una plataforma de empleo local diseñada con precisión, responsiva y accesible. Conéctate con talento local y gestiona ofertas laborales de manera eficiente en tu proyecto con Talento Local.',
 		logo: {
-			src: '/logo.svg',
+			src: '/logo-talento-local.svg',
 			alt: 'Talento local logo',
 			text: 'Talento Local.'
 		}

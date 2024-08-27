@@ -12,8 +12,7 @@ import GoogleTagManagerBody from '../components/scripts/googleTagManagerBody.ast
 // Styles
 import '../styles/global.css'
 // Fonts
-import '@fontsource-variable/inter'
-import '@fontsource-variable/outfit'
+import '@fontsource/poppins'
 // Data
 import { configData } from '../config/config'
 
@@ -29,7 +28,7 @@ const { title, description, ogImage, noindex } = Astro.props
 ---
 
 <!doctype html>
-<html lang="en" class="scroll-animation mode-auto">
+<html lang="es" class="scroll-animation mode-auto">
 	<Header title={title} description={description} ogImage={ogImage} noindex={noindex} />
 	<body
 		class:list={[

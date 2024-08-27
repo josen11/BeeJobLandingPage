@@ -33,7 +33,7 @@ export interface NavData {
 
 export const navigationBarData: NavData = {
 	logo: {
-		src: '/logo.svg',
+		src: '/logo-talento-local.svg',
 		alt: 'Talento local logo',
 		text: 'Talento local.'
 	},

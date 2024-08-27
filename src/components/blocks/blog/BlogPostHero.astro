@@ -38,10 +38,10 @@ const { tags, title, author, publishDate } = Astro.props
 				{
 					author ? (
 						<p class="page-header__text">
-							Written by, {author} {publishDate && 'on ' + publishDate}
+							Escrito por, {author} {publishDate && 'el ' + new Date(publishDate).toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' })}
 						</p>
 					) : (
-						publishDate && <p class="page-header__text">Published on, {publishDate}</p>
+						publishDate && <p class="page-header__text">Publicado el, {new Date(publishDate).toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 					)
 				}
 			</header>

@@ -2,7 +2,7 @@
 title: 'Lanzamiento de la App Móvil de Talento Local'
 pubDate: 2024-04-05T05:00:00Z
 description: 'Hemos implementado nuevas actualizaciones de seguridad para mantener tus datos seguros. Descubre más sobre nuestras últimas mejoras de seguridad y cómo te protegen.'
-author: 'Eleni K'
+author: 'Jose Aguirre'
 image: '/blog/post-02-ai.png'
 tags: ['app', 'anuncio']
 ---

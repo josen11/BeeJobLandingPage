@@ -2,7 +2,7 @@
 title: '¡Mejoras de Seguridad ya están aquí!'
 pubDate: 2024-05-05T05:00:00Z
 description: 'La aplicación móvil de Talento Local ya está disponible. Gestiona tus ofertas laborales y postulaciones sobre la marcha con nuestra nueva app. Mantente conectado y productivo sin importar dónde te encuentres.'
-author: 'Christos P'
+author: 'Julian Ospina'
 image: '/blog/post-03-ai.png'
 tags: ['productividad', 'app']
 ---

@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'Talento Local. Plataforma de Empleo y Gestión Laboral',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
-	ogImage: '/og.jpg',
+		'Talento Local es una plataforma que conecta empresas con talento local, especializada en crear oportunidades laborales y mejorar la empleabilidad.',
+	ogImage: '/og.png',
 	logo: {
-		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		src: '/logo-talento-local.svg',
+		alt: 'Talento Local. logo'
 	},
 	canonical: true,
 	noindex: false,
